@@ -40,29 +40,167 @@
 				</ul>
 			</div>
 		</div>
-		<ul class="navbar-nav">
+		<ul class="navbar-nav right-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="#">Actors</a>
+				<a class="nav-link" id="nav-actor" href="#actor">Actors</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Quotes</a>
+				<a class="nav-link" id="nav-quote" href="#quote">Quotes</a>
 			</li>
 		</ul>
 	</nav>
 
-	<header>
-		<div class="movie-header">
-			Silver Lining Playbook
-		</div>
-		<div class="info">2012 R 2h 2m</div>
-		<div class="img-container">
-			<img width="230" height="315" class="movie-poster" src="https://www.heyuguys.com/images/2012/11/Silver-Linings-Playbook-Poster.jpg" alt="poster of silver lining playbook">
-		</div>
+	<section class="main-page">
+		<header class="container header-container">
+			<div class="row">
+				<div class="movie-header col-8">
+					Silver Lining Playbook
+				</div>
+				<aside class="col-4 rating-tab">
+					<span class="rating">IMDb Rating:</span>
+					<span class="rate">7.7/10</span>
+				</aside>
+			</div>
+			<div class="info">2012 R 2h 2m</div>
+			<div class="row">
+				<div class="img-container col-6">
+					<img width="280" height="400" class="movie-poster"
+						src="https://www.heyuguys.com/images/2012/11/Silver-Linings-Playbook-Poster.jpg"
+						alt="poster of silver lining playbook">
+				</div>
 
-		<div class="trailer">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Zn-EXdNWC1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+				<div class="trailer col-6">
+					<iframe width="720" height="400" src="https://www.youtube.com/embed/Zn-EXdNWC1c"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+		</header>
+
+		<summary class="container summary-container">
+			<div>
+				<span class="badge rounded-pill text-bg-dark genre-badge">Comady</span>
+				<span class="badge rounded-pill text-bg-dark genre-badge">Drama</span>
+				<span class="badge rounded-pill text-bg-dark genre-badge">Romance</span>
+			</div>
+			<div class="summary-content">After a stint in a mental institution, former teacher Pat Solitano moves back
+				in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets
+				Tiffany, a mysterious girl with problems of her own.</div>
+			<hr style="color: white;">
+			<div class="director">
+				Director
+				<a href="https://www.imdb.com/name/nm0751102/?ref_=tt_ov_dr">David O Russell</a>
+			</div>
+			<hr style="color: white;">
+			<div class="director">
+				Writers
+				<a href="https://www.imdb.com/name/nm0751102/?ref_=tt_ov_dr">David O Russell</a>
+				(Screenplay)
+				<a href="https://www.imdb.com/name/nm2683048/?ref_=tt_ov_wr">Matthew Quick</a>
+				(novel "The Silver Linings Playbook")
+			</div>
+			<hr style="color: white;">
+			<div class="director">
+				Stars
+				<a href="https://www.imdb.com/name/nm0177896/?ref_=tt_ov_st">Bradley Cooper</a>
+				<a href="https://www.imdb.com/name/nm2225369/?ref_=tt_ov_stt">Jennifer Lawrence</a>
+				<a href="https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st">Robert De Niro</a>
+			</div>
+			<hr style="color: white;">
+		</summary>
+	</section>
+
+	<section class="actor-section" id="actor">
+		<div class="container cast-container">
+			<div class="top-cast">Top Cast</div>
+			<div class="row cast-row">
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/bradley-cooper-8873-24-03-2017-12-35-29.jpg"
+						alt="Bradley cooper">
+					<span class="actor-name">Bradley Cooper</span>
+				</div>
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://m.media-amazon.com/images/M/MV5BOTU3NDE5MDQ4MV5BMl5BanBnXkFtZTgwMzE5ODQ3MDI@._V1_.jpg"
+						alt="">
+					<span class="actor-name">Jennifer Lawrence</span>
+				</div>
+			</div>
+			<div class="row cast-row">
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://www.themoviedb.org/t/p/w500/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg" alt="">
+					<span class="actor-name">Robert De Niro</span>
+				</div>
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://i.guim.co.uk/img/media/60b727f18745fd3960a4afcc0c01a3806437a002/0_223_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=737abfcbe04841f3f028b7344471bb51"
+						alt="">
+					<span class="actor-name">Jackie Weaver</span>
+				</div>
+			</div>
+			<div class="row cast-row">
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa5Vh3ViMTEFfBV6KIimBQtY8rmzqCGCPH-MUX_Gl645NbrcZzTgVvJxrfpD21zJFSLXE&usqp=CAU"
+						alt="">
+					<span class="actor-name">Chris Tucker</span>
+				</div>
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://images.indianexpress.com/2021/05/anupam-kher-1200.jpg" alt="">
+					<span class="actor-name">Anupam Kher</span>
+				</div>
+			</div>
+			<div class="row cast-row">
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://upload.wikimedia.org/wikipedia/commons/b/b8/John_Ortiz_2019.jpg" alt="">
+					<span class="actor-name">John Ortiz</span>
+				</div>
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/d3caK3l4UfbnzOxv95wLoFLZzMO.jpg"
+						alt="">
+					<span class="actor-name">Shea Whingam</span>
+				</div>
+			</div>
+			<div class="row cast-row">
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://www.themoviedb.org/t/p/w500/9PJ6G5begxnZkkwvqZqMs0Iwn5o.jpg" alt="">
+					<span class="actor-name">Julia Stiles</span>
+				</div>
+				<div class="col-6">
+					<img class="cast-img" width="150" height="150"
+						src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F03%2F30%2FPaul-Herman.jpg"
+						alt="">
+					<span class="actor-name">Paul Herman</span>
+				</div>
+			</div>
 		</div>
-	</header>
+	</section>
+
+	<section class="quote-section" id="quote">
+		<div class="container quote-container">
+			<div class="fav-quote">Quotes</div>
+			<div class="row quote-row row1">Pat: The only way you can beat my crazy was by doing something crazy
+				yourself. Thank you. I love you. I knew it the minute I met you. I'm sorry it took so long for me to
+				catch up. I just got stuck.</div>
+			<hr style="color: rgb(0, 0, 0);">
+			<div class="row quote-row">The world will break your heart ten ways to Sunday. That's guaranteed. I can't
+				begin to explain that. Or the craziness inside myself and everyone else. But guess what? Sunday's my
+				favorite day again. I think of what everyone did for me, and I feel like a very lucky guy.</div>
+			<hr style="color: rgb(0, 0, 0);">
+			<div class="row quote-row">I do this! Time after time after time! I do all this shit for other people! And
+				then I wake up and I'm empty! I have nothing!</div>
+		</div>
+	</section>
+	<footer class="footer-container">
+		<div class="producer">Produced by: &lt The Weinstein Company &gt</div>
+	</footer>
 	<!-- the entire body must be written by student -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -1,7 +1,11 @@
-
 body {
-    background: #1f1f1f;
+    background: #ffffff;
 }
+.container {
+    max-width: 100%;
+    padding-right: 300px;
+}
+
 .navbar {
     background: black;
     padding-left: 300px;
@@ -19,8 +23,21 @@ body {
 .nav-link {
     color: aliceblue;
 }
+
 .search-form {
-    width: 800px;
+    width: 700px;
+}
+
+.right-nav {
+    padding: 0 10px;
+}
+
+.main-page {
+    background: #1f1f1f;
+}
+
+.header-container {
+    margin: 0;
 }
 
 .movie-header {
@@ -29,6 +46,26 @@ body {
     font-weight: 500;
     padding-left: 300px;
     padding-top: 30px;
+}
+
+.rating {
+    color: azure;
+    padding-left: 120px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.rate {
+    color: azure;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rating-tab {
+    padding-top: 50px;
+    padding-right: 50px;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .info {
@@ -41,15 +78,103 @@ body {
 .trailer {
     display: inline;
     padding-top: 30px;
-    padding-left:530px ;
+    padding-left: 0;
 }
 
 .img-container {
     display: inline;
     padding-left: 300px;
     padding-top: 30px;
+    width: fit-content;
+    padding-right: 10px;
 }
 
-.movie-poster {
+.summary-container {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 200px;
 }
-/* Your CSS Code here. */
+
+.genre-badge {
+    padding: 8px 16px;
+}
+
+.summary-content {
+    color: white;
+    padding-top: 20px;
+}
+
+.director {
+    color: white;
+    font-weight: bold;
+}
+
+.director a {
+    padding-left: 50px;
+}
+
+.cast-container {
+    margin: 0;
+    padding-left: 300px;
+    padding-top: 20px;
+    /* padding-right: 300px; */
+}
+
+.top-cast {
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    border-left: 5px solid #e2b616;
+}
+
+.cast-row {
+    padding: 20px 0;
+}
+
+.cast-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.actor-name {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quote-container {
+    padding-top: 20px;
+    margin: 0;
+    padding-left: 300px;
+}
+
+.fav-quote {
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    border-left: 5px solid #e2b616;
+}
+
+.quote-row {
+    padding: 10px 30px;
+    font-size: 24px;
+}
+
+.row1 {
+    padding-top: 40px;
+}
+
+.footer-container {
+    background: #1f1f1f;
+    padding-top: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    /* margin-left: 0; */
+}
+
+.producer {
+    color: white;
+}
